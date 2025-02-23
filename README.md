@@ -1,16 +1,17 @@
-# 📚 Supervised Learning - Deep Learning Specialization (Course 1) by Andrew Ng
+# 📚 Supervised Machine Learning: Regression and Classification
 
-Welcome to this repository! 🚀 This repository contains my **Week 1 Open Lab Jupyter Notebook** from the **Supervised Learning** course, part of Andrew Ng's Deep Learning Specialization on Coursera.
+Welcome to this repository! 🚀 This repository contains my **Week 1 Open Lab Jupyter Notebooks** from the **Supervised Machine Learning: Regression and Classification** course, part of Andrew Ng's Deep Learning Specialization on Coursera.
 
 ---
 
 ## 📌 Course Overview
-The course introduces foundational concepts in supervised learning and deep learning, covering:
-- **Linear Regression** & **Logistic Regression**
-- **Neural Networks Basics**
-- **Gradient Descent & Cost Functions**
-- **Overfitting & Regularization**
-- **Evaluation Metrics**
+This course introduces foundational concepts in supervised learning, focusing on regression and classification. Key topics covered:
+- **What is Machine Learning?**
+- **Supervised vs. Unsupervised Learning**
+- **Linear Regression**
+- **Cost Function & Optimization**
+- **Gradient Descent & Learning Rate**
+- **Evaluation Metrics & Model Representation**
 
 ---
 
@@ -18,20 +19,18 @@ The course introduces foundational concepts in supervised learning and deep lear
 ```
 📂 Supervised-Learning-Course1
  ├── 📜 README.md  (This file)
- ├── 📓 Week1_OpenLab.ipynb  (Jupyter Notebook with solutions)
- ├── 📂 assets  (Images & diagrams used in notebooks)
- ├── 📂 datasets  (Any sample datasets used)
+ ├── 📓 Linear_Regression_Model.ipynb  (Lab on Linear Regression Model)
+ ├── 📓 Cost_Function.ipynb  (Lab on Cost Function Visualization)
+ ├── 📓 Gradient_Descent.ipynb  (Lab on Gradient Descent Implementation)
+ ├── 📓 Notes/  (My handwritten notes and explanations)
 ```
 
 ---
 
 ## 📜 Week 1 Notebook Details
-🔹 **Content:** Implementing **linear regression** using NumPy, visualizing decision boundaries, and experimenting with learning rates.
-🔹 **Libraries Used:** NumPy, Matplotlib, pandas, scikit-learn.
-🔹 **Key Concepts Implemented:**
-   - Vectorized implementation of linear regression.
-   - Plotting decision boundaries for classification.
-   - Hands-on gradient descent optimization.
+🔹 **Linear Regression Model:** Understanding hypothesis representation, model fitting, and linear regression implementation.  
+🔹 **Cost Function:** Visualizing cost function behavior and how it impacts learning.  
+🔹 **Gradient Descent:** Implementing gradient descent and tuning learning rates for optimal performance.
 
 ---
 
@@ -42,14 +41,14 @@ The course introduces foundational concepts in supervised learning and deep lear
    ```
 2. Open the Jupyter Notebook:
    ```bash
-   jupyter notebook Week1_OpenLab.ipynb
+   jupyter notebook
    ```
-3. Run the cells and explore the implementation! 🎯
+3. Navigate to the desired notebook and execute the cells.
 
 ---
 
 ## 📌 Prerequisites
-Make sure you have the following installed:
+Ensure you have the following installed:
 - Python (>=3.7)
 - Jupyter Notebook
 - NumPy, Matplotlib, pandas, scikit-learn
@@ -62,9 +61,9 @@ pip install numpy matplotlib pandas scikit-learn
 ---
 
 ## 🎯 Future Updates
-- Adding more in-depth explanations for each section.
-- Implementing logistic regression from scratch.
-- Exploring different optimization techniques.
+- Uploading more handwritten notes with key concepts.
+- Implementing logistic regression and classification tasks.
+- Exploring advanced optimization techniques.
 
 ---
 
